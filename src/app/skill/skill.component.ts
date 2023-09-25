@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Skill } from '../model/skill.model';
+
 
 @Component({
   selector: 'app-skill',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./skill.component.css']
 })
 export class SkillComponent {
-
+  @Input() skill: Skill = new Skill("","","");
 }
