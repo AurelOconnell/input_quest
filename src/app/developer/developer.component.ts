@@ -9,8 +9,8 @@ import { Skill } from '../model/skill.model';
 })
 export class DeveloperComponent implements OnInit {
   developer: Developer = new Developer("Faure", "Aurélien", 36, "Male", "Web developer in the making", [
-  new Skill("PHP", "https://fr.wikipedia.org/wiki/PHP", "https://www.php.net/manual/fr/"),
-  new Skill("Symfony", "https://symfony.com/logo", "https://symfony.com/doc/current/index.html")
+  new Skill("PHP", "https://www.php.net/images/logos/new-php-logo.svg", "https://www.php.net/manual/fr/"),
+  new Skill("Symfony", "https://symfony.com/logos/symfony_black_03.png", "https://symfony.com/doc/current/index.html")
   ]
   )
 
